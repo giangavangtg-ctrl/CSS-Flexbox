@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành Flexbox Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="layout-container">
+        <!-- 1. Header: Tiêu đề trang -->
+        <header class="header">
+            <h1>Trang Web Của Tôi</h1>
+        </header>
+        
+        <!-- 2. Navigation: Thanh điều hướng -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Khu vực chứa Nội dung chính và Sidebar -->
+        <div class="main-wrapper">
+            <!-- 3. Main Content: Nội dung chính -->
+            <main class="content">
+                <h2>Chào mừng đến với trang web</h2>
+                <p>Đây là khu vực hiển thị nội dung bài viết, sản phẩm hoặc thông tin chính của trang web. Nhờ Flexbox, khu vực này sẽ linh hoạt co giãn dựa trên không gian màn hình.</p>
+                <p>Bố cục này thường được gọi là "Holy Grail Layout".</p>
+            </main>
+            
+            <!-- 4. Sidebar: Nội dung phụ -->
+            <aside class="sidebar">
+                <h3>Tin tức nổi bật</h3>
+                <ul>
+                    <li><a href="#">Bản tin công nghệ</a></li>
+                    <li><a href="#">Xu hướng thiết kế 2026</a></li>
+                    <li><a href="#">Thủ thuật CSS Flexbox</a></li>
+                </ul>
+            </aside>
+        </div>
+        
+        <!-- 5. Footer: Thông tin cuối trang -->
+        <footer class="footer">
+            <p>&copy; 2026 Bản quyền thuộc về Trang Web Của Tôi.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
